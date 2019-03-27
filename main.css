@@ -1,0 +1,66 @@
+/* applied across both pages */
+body{
+    background-color: darkblue;
+}
+
+a{
+    color: darkblue;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 5px;
+}
+h1{
+    color: black;
+    font-family: inherit;
+}
+
+/* Title font for first page */
+@font-face {
+    font-family: "Harvard";
+    src: url("font.ttf") format("truetype");
+}
+
+.titletext{
+    color:ivory;
+    text-align: center;
+    font-family:"Harvard";
+    font-size: 120px
+}
+
+.password{
+    text-align: center;
+    color: ivory;
+    font-size: 20px;
+    border-bottom: 10px;
+}
+
+footer{
+    color: ivory;
+    float:right;
+    position: absolute;
+    bottom: 5px;
+}
+
+/* Second page */
+.information-panel-one{
+    color: black;
+    text-align: center;
+    font-family: "harvard";
+    background-color: ivory;
+    padding: 10px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 20px;
+}
+
+.grid{
+    background-color: ivory;
+    font-family: inherit;
+    display: inline-grid;
+    text-align: center;
+    font-family: monospace;
+    height: 530px;
+}
